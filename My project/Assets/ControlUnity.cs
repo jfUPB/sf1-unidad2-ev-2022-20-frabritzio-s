@@ -73,26 +73,26 @@ public class ControlUnity : MonoBehaviour
         {
             case "1":
                 if (_ledState == "ON"){
-                    _serialPort.Write("led_1ON");
+                    _serialPort.Write("led_1ON\n");
                 }
-                else if (_ledState == "OFF"){
-                    _serialPort.Write("led_1OFF");
+                else {
+                    _serialPort.Write("led_1OFF\n");
                 }
                 break;
             case "2":
                 if (_ledState == "ON"){
-                    _serialPort.Write("led_2ON");
+                    _serialPort.Write("led_2ON\n");
                 }
-                else if (_ledState == "OFF"){
-                    _serialPort.Write("led_2OFF");
+                else {
+                    _serialPort.Write("led_2OFF\n");
                 }
                 break;
             case "3":
                 if (_ledState == "ON"){
-                    _serialPort.Write("led_3ON");
+                    _serialPort.Write("led_3ON\n");
                 }
-                else if (_ledState == "OFF"){
-                    _serialPort.Write("led_3OFF");
+                else {
+                    _serialPort.Write("led_3OFF\n");
                 }
                 break;
             

@@ -1,5 +1,4 @@
-/home/pop-os/Documents/sf1-unidad2-ev-2022-20-frabritzio-s/Visual/build/sketch/main.ino.cpp.o: \
- sketch/main.ino.cpp \
+sketch/main.ino.cpp.o: sketch/main.ino.cpp \
  /home/pop-os/Apps/arduino-1.8.19-linux64/arduino-1.8.19/portable/packages/esp32/hardware/esp32/2.0.4/cores/esp32/Arduino.h \
  /home/pop-os/Apps/arduino-1.8.19-linux64/arduino-1.8.19/portable/packages/esp32/hardware/esp32/2.0.4/cores/esp32/esp_arduino_version.h \
  /home/pop-os/Apps/arduino-1.8.19-linux64/arduino-1.8.19/portable/packages/esp32/hardware/esp32/2.0.4/tools/sdk/esp32/include/freertos/include/freertos/FreeRTOS.h \
